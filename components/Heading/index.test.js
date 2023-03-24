@@ -1,10 +1,8 @@
-import Home from "../pages";
+import Heading from ".";
 import { render, screen } from "@testing-library/react";
 
 test("test", () => {
-  render(<Home />);
-  const element = screen.getByRole("heading", {
-    name: /🐠/
-  });
+  render(<Heading>🐠</Heading>);
+  const element = screen.getByText("🐠");
   expect(element).toBeInTheDocument();
 });

@@ -30,8 +30,3 @@ labels: enhancement
 - [ ] list the tasks that need to be performend within the dev team
 - [ ] e.g. Components, Storybook, testing
 - [ ] ...
-      ​
-
-## Complexity
-
-... (T-Shirt Sizes XS to XL)
